@@ -7,11 +7,11 @@ public class Mainclass4 {
 	public static void main(String[] args) {
 		
 		System.out.println("main method started");
-		Employee e1=new Employee(1012,"Kishor",35000.00);
-		Employee e2=new Employee(1122,"Abhi",32000.00);
-		Employee e3=new Employee(1192,"Riya",25000.00);
-		Employee e4=new Employee(2062,"Puja",28000.00);
-		Employee e5=new Employee(2202,"Tania",10000.00);
+		Employee e1=new Employee(1011, "Bheem",35000.00);
+		Employee e2=new Employee(1102, "Chutki",25000.00);
+		Employee e3=new Employee(2065, "Raju",30000.00);
+		Employee e4=new Employee(1001, "Indumati",27000.00);
+		Employee e5=new Employee(2150, "Jaggu",15000.00);
 		//store 5 employee details in hashmap
 		
 		HashMap<Integer,Employee>m1=new HashMap<Integer,Employee>();
